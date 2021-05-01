@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/glide.core.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Galery</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_title">
+            <a href="https://glidejs.com">Glidejs</a>
+        </div>
+        <div class="nav_body">
+           <div class="btn" onclick="goDown()">Usando dependência</div>
+           <div class="btn2" onclick="goDown()">
+               <div style="transform: rotate(180deg);" >^</div>
+           </div>
+        </div>
+        <div class="line-1"></div>
+    </nav>
+    <div class="scrn-1">
+        <aside>
+            
+        </aside>
+        <div class="glide">
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&lt</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&gt</button>
+            </div>
+            <div class="glide__track" data-glide-el="track"> 
+              <ul class="glide__slides">
+                <li class="glide__slide"><img src="imgs/img_1.jpeg" alt=""></li>
+                <li class="glide__slide"><img src="imgs/img_2.jpeg" alt=""></li>
+                <li class="glide__slide"><img src="imgs/img_3.jpeg" alt=""></li>
+                <li class="glide__slide"><img src="imgs/img_4.jpeg" alt=""></li>
+                <li class="glide__slide"><img src="imgs/img_5.jpeg" alt=""></li>
+                <li class="glide__slide"><img src="imgs/img_6.jpeg" alt=""></li>
+              </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="script/glide.min.js"></script>
+<script src="script/script.js"></script>
+</html>
